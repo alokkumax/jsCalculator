@@ -49,6 +49,12 @@ Array.from(buttons).forEach((button)=>{
             document.querySelector("#input1").innerHTML = f;
 
         }
+        else if(e.target.innerHTML=="..."){
+            res = "coming soon";
+           
+            document.querySelector("#input1").innerHTML = res;
+
+        }
         else{
             res =  res + e.target.innerHTML;
             document.querySelector("#input1").innerHTML = res;
